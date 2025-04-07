@@ -16,7 +16,7 @@ __pycache__/
 *.db
 
 # Pipenv
-Pipfile.lock
+# Pipfile.lock
 
 # Virtualenv
 venv/
