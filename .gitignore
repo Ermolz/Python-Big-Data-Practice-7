@@ -1,0 +1,30 @@
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Byte-compiled / cache / logs
+*.log
+*.pot
+*.mo
+*.sqlite3
+*.db
+
+# Pipenv
+Pipfile.lock
+
+# Virtualenv
+venv/
+.env/
+
+# System
+.DS_Store
+Thumbs.db
+
+# Some data
+data/
