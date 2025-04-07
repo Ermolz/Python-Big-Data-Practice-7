@@ -4,7 +4,7 @@ def print_to_console(text):
 
     :param text: The text to be printed
     """
-    pass
+    print(text)
 
 
 def write_to_file(path, text):
@@ -14,4 +14,5 @@ def write_to_file(path, text):
     :param path: Path to the file
     :param text: The text to be written
     """
-    pass
+    with open(path, "w", encoding="utf-8") as file:
+        file.write(text)
